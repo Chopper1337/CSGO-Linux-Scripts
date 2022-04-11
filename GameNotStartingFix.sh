@@ -67,11 +67,13 @@ function fixPanorama(){
 function checkDmesg(){
   if [[ $(sudo dmesg | grep $1 | wc -c) -gt 0 ]]
   then
+    echo ""
     echo "$1 error found in dmesg."
     dmesgResult="true";
   else
     echo "$1 not found in dmesg."
     echo "Fix need not be applied."
+    echo ""
   fi
 }
 

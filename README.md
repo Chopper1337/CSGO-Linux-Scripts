@@ -24,6 +24,8 @@ Can this cause VAC? I have no idea!! :)
 
 Worst case you get VAC'd and have to create a support ticket to explain you used fixes found on the official CSGO Linux/MacOS GitHub.
 
+Verifying game files through Steam should undo the changes made by both of these workarounds.
+
 ## GameLaunchLoop.sh
 
 Essentially just keeps trying to launch CSGO until it doesn't crash.
