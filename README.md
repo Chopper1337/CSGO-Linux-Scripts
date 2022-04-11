@@ -30,6 +30,10 @@ Verifying game files through Steam should undo the changes made by both of these
 
 Essentially just keeps trying to launch CSGO until it doesn't crash.
 
+1. Do `chmod +x GameLaunchLoop.sh` to make it executable.
+
+1. `./GameLaunchLoop.sh` to execute the script.
+
 This can be used as another workaround the issues from the GitHub links above but it's not for the impatient (Waiting is for Windows users*).
 
 * As is CSGO starting when you click the play button :////
