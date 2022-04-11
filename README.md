@@ -1,5 +1,7 @@
 # CSGO Linux Scripts
 
+
+
 ## GameNotStartingFix.sh
 
 Script which checks for errors relating to known issues with CSGO.
@@ -9,6 +11,12 @@ https://github.com/ValveSoftware/csgo-osx-linux/issues/2659#issuecomment-1081135
 
 Panorama video segfault:
 https://github.com/ValveSoftware/csgo-osx-linux/issues/2659#issuecomment-934357559
+
+1. Place in your CSGO directory
+
+1. Do `chmod +x GameNotStartingFix.sh` to make it executable.
+
+1. `./GameNotStartingFix.sh` to execute the script.
 
 If either of these are workarounds are applied to your game, you should add `-novid -nojoy` to your CSGO launch parameters.
 
