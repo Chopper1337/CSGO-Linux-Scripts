@@ -36,4 +36,4 @@ Essentially just keeps trying to launch CSGO until it doesn't crash.
 
 This can be used as another workaround the issues from the GitHub links above but it's not for the impatient (Waiting is for Windows users*).
 
-* As is CSGO starting when you click the play button :////
+\* As is CSGO starting when you click the play button :////
