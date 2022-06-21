@@ -1,8 +1,6 @@
-# CSGO Linux Scripts
+# CSGO Arch Linux Scripts
 
-
-
-## GameNotStartingFix.sh
+## GameNotStartingFix Script
 
 Script which checks for errors relating to known issues with CSGO.
 
@@ -14,9 +12,9 @@ https://github.com/ValveSoftware/csgo-osx-linux/issues/2659#issuecomment-9343575
 
 1. Place in your CSGO directory
 
-1. Do `chmod +x GameNotStartingFix.sh` to make it executable.
+1. Do `chmod +x GameNotStartingFix-V2.sh` to make it executable.
 
-1. `./GameNotStartingFix.sh` to execute the script.
+1. `./GameNotStartingFix-V2.sh` to execute the script.
 
 If either of these are workarounds are applied to your game, you should add `-novid -nojoy` to your CSGO launch parameters.
 
@@ -26,7 +24,7 @@ Worst case you get VAC'd and have to create a support ticket to explain you used
 
 Verifying game files through Steam should undo the changes made by both of these workarounds.
 
-## GameLaunchLoop.sh
+## GameLaunchLoop Script
 
 Essentially just keeps trying to launch CSGO until it doesn't crash.
 
