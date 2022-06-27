@@ -1,6 +1,9 @@
 # CSGO Arch Linux Scripts
 
+
 ## GameNotStartingFix Script
+
+**Currently borked**
 
 Script which checks for errors relating to known issues with CSGO.
 
