@@ -12,9 +12,9 @@ https://github.com/ValveSoftware/csgo-osx-linux/issues/2659#issuecomment-9343575
 
 1. Place in your CSGO directory
 
-1. Do `chmod +x GameNotStartingFix-V2.sh` to make it executable.
+1. Do `chmod +x GameNotStartingFix-V1.sh` to make it executable.
 
-1. `./GameNotStartingFix-V2.sh` to execute the script.
+1. `./GameNotStartingFix-V1.sh` to execute the script.
 
 If either of these are workarounds are applied to your game, you should add `-novid -nojoy` to your CSGO launch parameters.
 
